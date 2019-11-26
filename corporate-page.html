@@ -1,0 +1,708 @@
+<html>
+	<head>
+		<title></title>
+		<meta name="viewport" content="width=device-width, maximum-scale=1">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'/>
+		<link rel='stylesheet' href='assets/bootstrap/css/bootstrap.min.css'/>
+		<link rel='stylesheet' href='assets/style.css'/>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+
+	</head>
+	<body>
+		<div class='row site-head'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding'>
+				<div class='row'>
+					<div class='mobile col-2 mobile-no-padding mobile-menu-icon text-center'>
+						<i class='fa fa-bars'></i>
+					</div>
+					<div class='col-7 col-sm-5 mobile-no-padding' id='header-logo'>
+						<h2>Chrome</h2>
+						<div class='slug'>Experiences</div>
+					</div>
+					<div class='col-3 col-sm-5 no-padding' id='header-menu-icon'>
+						<div class='desktop top-menu'>
+							<div class='icon-item no-padding'> 
+								<div class='label'><a href='Blog.html'>BLOG</a></div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label' id='for-login'>LOGIN</div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label'>FAQ's</div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label'><a href='corporate-page.html'> CORPORATE </a></div>
+							</div>
+						</div>
+						<div class=' icon-link'>
+							<div class='icon-item no-padding'>
+								<!--<img class='frt' src='assets/search.png'>-->
+								<i class='fa fa-search'></i>
+								<div class='label'>SEARCHE</div>
+							</div>
+							<div class='desktop icon-item no-padding'>
+								<a href='My_Voucher.html'>
+									<img class='frt' src='assets/voucher.jpg'>
+									<div class='label'>My VOUCHER</div>
+								</a>
+							</div>
+							<div class='desktop icon-item no-padding'>
+								<i class='fa fa-heart'></i>
+								<div class='label'>WISH LIST</div>
+							</div>
+							<div class='icon-item no-padding basket-menu' data-count='1'>
+								<i class='fa fa-shopping-basket'></i>
+								<!-- <img class='frt' src='assets/basket.png'> -->
+								<div class='label'>BASKET</div>
+								<div id='basket-top-drop' class='basket-container'>
+									<div class='basket-header text-left'>
+										Your Basket
+									</div>
+									<div class='basket-content'>
+										<div class='basket-prod'>
+											<div class='bsk-item'><img src='assets/fine-dining.jpg'></div>
+											<div class='bsk-item '>
+												<div class='bsk-desc text-left'><b>Three course meal with a glass of Wine for two at Prezzo</b></div>
+												<div><b><i class='fa fa-gbp'></i>49</b></div>
+											</div>
+											<div class='bsk-item'><span><b>X</b></span></div>
+										</div>
+									</div>
+									<div class='text-center basket-footer'>
+										<a href="cart-page.html"><button class='light_btn_bg basket-btn'>View Basket</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		<div class='row' id='top-menu-container'>
+			<div class='col-md-10 no-padding margin-center main-menu-div'>
+				<div class='float-right'> <i class='fa fa-times close_menu'> </i></div>
+				<div id='main-menu'>
+					<div class='menu-item mobile'>Login</div>
+					<div class='menu-item mobile'>My VOUCHER</div>
+					<div class='menu-item has-sub-menu'>
+						Experience
+						<div class='sub-menu'>
+							<div class='sub-menu-list'>
+								<div class='sub-link'>
+									DRIVING
+									<div class='sub-cat-list'>
+										<div class='sub-cat-head'>
+											<h5>View All DRIVING</h5>
+										</div>
+										<div class='sub-cat-link'>
+											SPA & BEAUTY
+											<div class='sub-cat-image'>
+												<div class='sub-cat-image-con'>
+													<img src='assets/afternoon-tea.jpg'>
+													<div class='sub-cat-image-footer'>AFTERNOON TEA FOR 2</div>
+												</div>
+											</div>
+										</div>
+										<div class='sub-cat-link'>AFTERNOON TEA</div>
+										<div class='sub-cat-link'>FOOD & DRINK</div>
+										<div class='sub-cat-link'>ADVENTURE</div>
+										<div class='sub-cat-link'>SPORTS & HOBBIES</div>
+										<div class='sub-cat-link'>FLYING</div>
+									</div>	
+								</div>
+								<div class='sub-link'>SPA & BEAUTY</div>
+								<div class='sub-link'>AFTERNOON TEA</div>
+								<div class='sub-link'>FOOD & DRINK</div>
+								<div class='sub-link'>ADVENTURE</div>
+								<div class='sub-link'>SPORTS & HOBBIES</div>
+								<div class='sub-link'>FLYING</div>
+							</div>
+						</div>
+					</div>
+					<div class='menu-item has-sub-menu'>
+						Occasion
+						<div class='sub-menu'>
+							<div class='sub-menu-list'></div>
+							<div class='sub-menu-list'></div>
+							<div  class='sub-menu-images'></div>
+						</div>
+					</div>
+					<div class='menu-item  has-sub-menu'><a style="color:#000;" href="Location.html">Location</a>
+						<div class='sub-menu'>
+							<div class='sub-menu-list'></div>
+							<div class='sub-menu-list'></div>
+							<div  class='sub-menu-images'></div>
+						</div>
+					</div>
+					<div class='menu-item  has-sub-menu'>Price Range
+						<div class='sub-menu'>
+							<div class='sub-menu-list'></div>
+							<div class='sub-menu-list'></div>
+							<div  class='sub-menu-images'></div>
+						</div>
+					</div>
+					<div class='menu-item'>Special Offer</div>
+					<div class='menu-item'>Gift Cards</div>
+					<div class='menu-item'>Packages</div>
+					<div class='menu-item mobile'>Blog</div>
+					<div class='menu-item mobile'>FAQ's</div>
+					<div class='menu-item mobile'>Corporate</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class='row'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 container'>
+				<div class='row micro-link'>
+					<div class='col-4 text-center mobile-no-padding'><i class='fa fa-envelope'></i> INSTANT DELIVERY</div>
+					<div class='col-4 text-center  mobile-no-padding'><i class='fa fa-gem'></i> UNIQUE EXPERIENCE</div>
+					<div class='col-4 text-center mobile-no-padding'><i class='fa fa-exchange-alt'></i> FREE EXCHANGES</div>
+				</div>
+				<div class="col-md-8">
+					<p><a style="color:#000;" href="#"><< Back to blog hompage</a></p>
+				</div><div class="top-margin">&nbsp;</div>
+				<div class='row top-margin'>
+					<div class='col-md-8 coperate-banna'>
+						<h4>Discovering the outdoors corporate adventure</h4>
+						<div><img src='assets/shutterstock_275521568.jpg'></div>
+					</div>
+					<div class='col-md-4 text-center'>
+						<div class='row text-center corporate-card-top-menu'>
+							<div class='col-md-6'>
+								Valid for <b>1 Year</b> <i class='fa fa-calendar-check'></i>
+							</div>
+							<div class='col-md-6 no-padding'>
+								Add To My Wishlist <i class='far fa-heart'></i>
+							</div>
+						</div>
+						<div class='corporate-card'>
+							<div class='row '>
+								<div class='col-md-12 small-text'>
+									<i class='fa fa-male'></i> For 1 person <i class='fas fa-map-marker-alt'></i> 1 location | <a href='#'>Show on map</a> 
+								</div>
+								<div class='col-md-12 corporate-desc'>
+									Get the team out into nature for a team building day like no other!
+									The Outdoors awaits!
+								</div>
+								<div class='col-md-12'> <h3><b> <i class="fa fa-pound-sign"></i>309.00</b></h3> </div>
+								<div class='col-md-12 price-based'> Price based <button class='n-people'> 5 people </button> </div>
+								<div class='col-md-12'> <button class='add-to-basket light_btn_bg'>ADD TO BASKET</button> <button class='apple-pay dark-btn-bg'><i class='fab fa-apple'></i>Pay</button> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='row top-margin'>
+					<div class='col-md-8'>
+						<h4>Overview</h4>
+						<div>
+							What's not to love about London? its prolific past vibrant culture and some
+							of the country's most striking  architecture gathered within a few square miles along
+							the Themes. If you love London and photography you can combine the two with this fantastic London
+							Photography Tour.
+						</div>
+						<hr>
+						<h4>What's included? <i class='fa fa-chevron-up'></i></h4>
+						<div>
+							<ul class='close-padding'>
+								<li>6 Hours with a professional photographer</li>
+								<li>Available throughout the year</li>
+								<li>Printed phone included</li>
+								<li>Choice of 2 styles</li>
+								<li>Available throughout the year</li>
+								<li>Available throughout the year</li>
+							</ul>
+						</div>
+						<h5>What to expect on the day?</h5>
+						<div>
+							<p>
+								On the day of your course you will meet with your instructor and fellow photographers
+								at a  coffee shop in Central London. After a shot of caffeine and some introductory techniques
+								you will set off for 3 hours shooting before a lunch break around midday.
+							</p>
+							<p>
+								On the day of your course you will meet with your instructor and fellow photographers
+								at a  coffee shop in Central London. After a shot of caffeine and some introductory techniques
+								you will set off for 3 hours shooting before a lunch break around midday.
+							</p>
+						</div>
+						<hr>
+						<h5>What do i need to know? <i class='fa fa-chevron-up'></i></h5>
+						<div>
+							<div class='what-to-know'>
+								<div class='what-list'>
+									<div class='item text-center'>
+										<div><b>Validity</b></div>
+										<div><i class='fa fa-calendar-check'></i></div>
+									</div>
+									<div class='item'>
+										<div>- This voucher is valid for <b>1 year from he date of issue</b></div>
+										<div>- You must book and use your experience before the expiry date</div>
+									</div>
+								</div>
+								<div class='what-list'>
+									<div class='item text-center'>
+										<div><b>Validity</b></div>
+										<div><i class='fa fa-calendar-check'></i></div>
+									</div>
+									<div class='item'>
+										<div>- This voucher is valid for <b>1 year from he date of issue</b></div>
+										<div>- You must book and use your experience before the expiry date</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class='col-md-4'>
+						<div class='text-center corporate-rating'>
+							<div class='star-rating'>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-alt"></i>
+							</div>
+							<div class='star-rating-text'>
+								Rate 4.5 star from 109 reviews!
+							</div>
+						</div>
+						<div>
+							<div class='text-center corporate-map'>
+								<div class='row corporate-map-head'>
+									<div class='col-3 no-padding'><i class='fa fa-map-marker-alt'></i></div>
+									<div class='col-9 no-padding'>
+										<div>This experience is Available at:</div>
+										<div><h5>2 Locations</h5></div>
+									</div>
+								</div>
+								<div class='corporate-map-content'>
+									<div id="googleMap" style="width:100%;height:400px;"></div>
+								</div>
+								<div class='corporate-map-footer'>
+									<h5>Location & Availability <i class='fa fa-chevron-down'></i></h5>
+									<div class='row text-left'>
+										<div class='col-6 accordion-t'>North (0)</div><div class='col-6 accordion-t'><i class='fa fa-chevron-down'></i></div>
+										<div class='col-12 content'></div>
+									</div>
+									<div class='row text-left'>
+										<div class='col-6 accordion-t'>Midland (0)</div><div class='col-6 accordion-t'><i class='fa fa-chevron-down'></i></div>
+										<div class='col-12 content'></div>
+									</div>
+									<div class='row text-left'>
+										<div class='col-6 accordion-t'>South East (2)</div><div class='col-6 accordion-t'><i class='fa fa-chevron-down'></i></div>
+										<div class='col-12 content'>
+											<ul>
+												<li>London, Briton central - <b>weekdays and weekends</b></li>
+												<li>London, Briton central - <b>weekdays and weekends</b></li>
+											</ul>
+										</div>
+									</div>
+									<div class='row text-left'>
+										<div class='col-6 accordion-t'>South West (0)</div><div class='col-6 accordion-t'><i class='fa fa-chevron-down'></i></div>
+										<div class='col-12 content'></div>
+									</div>
+									<div class='row text-left'>
+										<div class='col-6 accordion-t'>Wales (0)</div><div class='col-6 accordion-t'><i class='fa fa-chevron-down'></i></div>
+										<div class='col-12 content'></div>
+									</div>
+									<div class='row text-left'>
+										<div class='col-6 accordion-t'>Scotland (0)</div><div class='col-6 accordion-t'><i class='fa fa-chevron-down'></i></div>
+										<div class='col-12 content'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h5 class='line-rule-title'><span>CUSTOMER REVIEWS</span></h5>
+				<div class='row review-summary'>
+					<div class='col-md-6'>
+						<div class='row prog'>
+							<div class='col-md-2'><b>5 Star</b></div>
+							<div class='col-md-8 no-padding'>
+								<div class="progress">
+								  <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class='col-md-1'><b>88</b></div>
+						</div>
+						<div class='row prog'>
+							<div class='col-md-2'><b>4 Star</b></div>
+							<div class='col-md-8 no-padding'>
+								<div class="progress">
+								  <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class='col-md-1'><b>77</b></div>
+						</div>
+						<div class='row prog'>
+							<div class='col-md-2'><b>3 Star</b></div>
+							<div class='col-md-8 no-padding'>
+								<div class="progress">
+								  <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class='col-md-1'><b>27</b></div>
+						</div>
+						<div class='row prog'>
+							<div class='col-md-2'><b>2 Star</b></div>
+							<div class='col-md-8 no-padding'>
+								<div class="progress">
+								  <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class='col-md-1'><b>8</b></div>
+						</div>
+						<div class='row prog'>
+							<div class='col-md-2'><b>1 Star</b></div>
+							<div class='col-md-8 no-padding'>
+								<div class="progress">
+								  <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class='col-md-1'><b>0</b></div>
+						</div>
+					</div>
+					<div class='col-md-6'>
+						<div class='review-star-rating'>
+								<i class="fa fa-star checked"></i>
+								<i class="fa fa-star checked"></i>
+								<i class="fa fa-star checked"></i>
+								<i class="fa fa-star checked"></i>
+								<i class="fa fa-star-half-alt"></i> 
+						  </div>
+						  <div class='review-desc text-center'>
+							  <div>This experiences is rated <b>4.5</b> based on 197 reviews</div>
+							  <div><b>But don't just take our word for it, have a read below!</b></div>
+						  </div>
+					</div>
+				</div>
+				<div>
+					<div class='col-md-12 margin-center corporate-review-item'>
+						<div class='row'>
+							<div class='col-2'> 
+								  <div class='review-star-rating'>
+										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star-half-alt"></i> 
+								  </div>
+							</div>
+							<div class='col-8 text-center'><h4>"Fantastic Day out"</h4></div>
+							<div class='col-2 text-right'>
+								<div><b>Simon D</b></div>
+								<div>19th may 2019</div>
+							</div>
+							<p class=''>If ever i need a gift for anyone... This is the first company i think of. Their website is wonderful to browse through and full of brillant ideas for any occasion. its easy to order and the goods arrive well packed and in good time. i have recommended 'Find me a Gift' to several of my friends. i cannot reccommend them highly enough. An excellent service all round.</p>
+							<div class='text-right col-12'><i class="fa fa-flag"></i> </div>
+						</div>
+					</div>
+					<div class='col-md-12 margin-center corporate-review-item'>
+						<div class='row'>
+							<div class='col-2'>
+								  <div class='review-star-rating'>
+										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star checked"></i>
+										<i class="fa fa-star-half-alt"></i> 
+								  </div>
+							</div>
+							<div class='col-8 text-center'><h4>"Fantastic Day out"</h4></div>
+							<div class='col-2 text-right'>
+								<div><b>Simon D</b></div>
+								<div>19th may 2019</div>
+							</div>
+							<p class=''>If ever i need a gift for anyone... This is the first company i think of. Their website is wonderful to browse through and full of brillant ideas for any occasion. its easy to order and the goods arrive well packed and in good time. i have recommended 'Find me a Gift' to several of my friends. i cannot reccommend them highly enough. An excellent service all round.</p>
+							<div style="border-left-style: solid; border-left-color: #000000;" class='col-md-12 review-comment'>
+								<p style="padding-left:5%;">Hi Daryl,<br>
+								Many thanks for taking the time to leave a review</p>
+								<div class='review-comment-by'>
+									<div><b>Response by: John P</b></div>
+									<div>Manager at Chrome Experiences</div>
+								</div>
+							</div>
+							<div class='text-right col-12'><i class="fa fa-flag"></i> </div>
+						</div>
+					</div>
+				</div>
+				<h5 class='line-rule-title'></h5>
+				<div class='text-center'> <button class='read-more-btn'>READ MORE</button></div>
+				<div class='text-center filter-container'> <span class='filter-t active'>Recently Viewed</span> <span class='filter-t'>New Release</span> <span class='filter-t'>Top 10</span></div>
+				<div  class='margin-center col-10 col-ms-11'>
+					<section class="regular-b slider">
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>£49</b></div>
+									<div class='now'><span>NOW</span><b>£49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>£49</b></div>
+									<div class='now'><span>NOW</span><b>£49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>£49</b></div>
+									<div class='now'><span>NOW</span><b>£49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>£49</b></div>
+									<div class='now'><span>NOW</span><b>£49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>£49</b></div>
+									<div class='now'><span>NOW</span><b>£49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>£49</b></div>
+									<div class='now'><span>NOW</span><b>£49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		<div class='row' id='footer'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding mobile-no-padding'>
+				<div class='row'>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box cliam'>
+							<div class='info-title'>Claim Your Chrome Membership</div>
+							<p> For exclusive deals and the latest special offers</p>
+							<div class='info-input'>
+								<input type='text' placeholder='jon@chromeexperencies.com'>
+							</div>
+							<div class='info-button'>
+								<button type='submit' >SIGN ME UP</button>
+							</div>
+						</div>
+					</div>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box share'>
+							<div class='info-caption'>Share Your Experince!</div>
+							<p> For a chance to win another experince day in our monthly giveaways!</p>
+							<div class='info-caption'>#Chromeexperinces</div>
+						</div>
+					</div>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box share'>
+							<div class='info-caption'>Connect uith us!</div>
+							<p> Exciting dialy content of new experinces, and monly giveway prizes to be won!</p>
+							<div class='info-social'>
+								<i class="fab fa-facebook-square"></i>
+								<i class="fab fa-instagram"></i>
+								<i class="fab fa-twitter-square"></i>
+								<i class="fab fa-youtube-square"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class='row'>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Customer Services</div>
+							<ul>
+								<li><a href='How-it-works.html'>How it works</a></li>
+								<li><a href='Location.html'>Locations</a></li>
+								<li><a href='Package-Delivery.html'>Packaging & Delivery</a></li>
+								<li>Privacy & Security</li>
+								<li>Why buy from us?</li>
+								<li>Student discount</li>
+								<li><a href='Gift-Card-Balance-Checker.html'>Gift card balance checker</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Company Information</div>
+							<ul>
+								<li>About us</li>
+								<li><a href='corporate-page.html'>Coperate</a></li>
+								<li><a href='Contact-Us.html'>Contact us</a></li>
+								<li><a href='Careers.html'>Careers</a></li>
+								<li><a href='Affiliates.html'>Affliate</a></li>
+								<li><a href='review.html'>Reviews</a></li>
+								<li><a href='Becoame-suppler.html'>Become a supplier</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Office Hour (UK)</div>
+							<ul>
+								<li>8am - 5pm</li>
+								<li>Monday - Friday</li>
+								<li>01443 888144</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		<script src='assets/jQuery/js/jquery-3.4.1.min.js'></script>
+		<script src='assets/bootstrap/js/bootstrap.min.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+		<script src="assets/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+		<script>
+			var map = new google.maps.Map(document.getElementById("googleMap"));
+			$(document).ready(function() {
+				$("body").on("click",".mobile-menu-icon",function(){
+					$("#top-menu-container").toggleClass("slideout");
+				});
+				$("body").on("click",".close_menu",function(){
+					$("#top-menu-container").toggleClass("slideout");
+				});
+				$("body").on("click","#for-login",function(){
+					$(".for-login").modal("show");
+				});
+				$("body").on("click","#login-form-switch,#register-form-switch",function(){
+					$("#login-form").toggle();
+					$("#register-form").toggle();
+				});
+				  $(".ch-accordion-header,.accordion-t").on("click",function(){
+					if($(this).parent().hasClass("open")){
+						$(this).parent().removeClass("open");
+					}else{
+						$(this).parent().addClass("open");
+					}
+				  })
+				  
+				  $(".regular-b").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					  responsive: [
+						{
+						  breakpoint: 1024,
+						  settings: {
+							slidesToShow: 4,
+							slidesToScroll: 1,
+							infinite: true,
+							dots: true
+						  }
+						},
+						{
+						  breakpoint: 600,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						},
+						{
+						  breakpoint: 480,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						}
+					  ]
+				  });
+				  $(".menu-item").on("click",function(){
+					$(".menu-item").removeClass("open");
+					$(this).addClass("open");
+				});
+				  $(".sub-link").on("click",function(){
+					$(".sub-link").removeClass("open");
+					$(this).addClass("open");
+				});
+				$(".review_slider").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1
+				  });
+				$('.sel-location').select2();
+				$('.sel-category').select2();
+				$('.sel-price-range').select2();
+				$('.sel-who-for').select2();
+			});
+		</script>
+	</body>
+</html>

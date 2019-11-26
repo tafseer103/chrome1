@@ -1,0 +1,421 @@
+<html>
+	<head>
+		<title></title>
+		<meta name="viewport" content="width=device-width, maximum-scale=1">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'/>
+		<link rel='stylesheet' href='assets/bootstrap/css/bootstrap.min.css'/>
+		<link rel='stylesheet' href='assets/style.css'/>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+
+	</head>
+	<body>
+		<div class='row site-head'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding'>
+				<div class='row'>
+					<div class='mobile col-2 mobile-no-padding mobile-menu-icon text-center'>
+						<i class='fa fa-bars'></i>
+					</div>
+					<div class='col-7 col-sm-5 mobile-no-padding' id='header-logo'>
+						<h2>Chrome</h2>
+						<div class='slug'>Experiences</div>
+					</div>
+					<div class='col-3 col-sm-5 no-padding desktop' id='header-menu-icon'>
+						<h3 class='checkout-heaader-lock'><b>Secure Checkout</b> <i class='fa fa-lock'></i></h3>
+					</div>
+					<div class='col-3 col-sm-5 no-padding mobile' id='header-menu-icon'>
+						<div class='desktop top-menu'>
+							<div class='icon-item no-padding'> 
+								<div class='label'><a href='Blog.html'>BLOG</a></div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label' id='for-login'>LOGIN</div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label'>FAQ's</div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label'><a href='corporate-page.html'> CORPORATE </a></div>
+							</div>
+						</div>
+						<div class=' icon-link'>
+							<div class='icon-item no-padding'>
+								<!--<img class='frt' src='assets/search.png'>-->
+								<i class='fa fa-search'></i>
+								<div class='label'>SEARCHE</div>
+							</div>
+							<div class='desktop icon-item no-padding'>
+								<a href='My_Voucher.html'>
+									<img class='frt' src='assets/voucher.jpg'>
+									<div class='label'>My VOUCHER</div>
+								</a>
+							</div>
+							<div class='desktop icon-item no-padding'>
+								<i class='fa fa-heart'></i>
+								<div class='label'>WISH LIST</div>
+							</div>
+							<div class='icon-item no-padding basket-menu' data-count='1'>
+								<i class='fa fa-shopping-basket'></i>
+								<!-- <img class='frt' src='assets/basket.png'> -->
+								<div class='label'>BASKET</div>
+								<div id='basket-top-drop' class='basket-container'>
+									<div class='basket-header text-left'>
+										Your Basket
+									</div>
+									<div class='basket-content'>
+										<div class='basket-prod'>
+											<div class='bsk-item'><img src='assets/fine-dining.jpg'></div>
+											<div class='bsk-item '>
+												<div class='bsk-desc text-left'><b>Three course meal with a glass of Wine for two at Prezzo</b></div>
+												<div><b><i class='fa fa-gbp'></i>49</b></div>
+											</div>
+											<div class='bsk-item'><span><b>X</b></span></div>
+										</div>
+									</div>
+									<div class='text-center basket-footer'>
+										<a href="cart-page.html"><button class='light_btn_bg basket-btn'>View Basket</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		
+		<div class='row'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding'>
+				
+				<div class='row lading-v-t'>
+					<div class='col-md-12 text-center checkoutsteps'>
+						<button class='light_btn_bg checkout-step arrow'>Basket</button>
+						<button class='light_btn_bg checkout-step  arrow'>Checkout</button>
+						<button class='light_btn_bg checkout-step active'>Unsuccessful</button>
+					</div>
+				</div>
+				<div class='row top-margin bottom-margin'>
+					<div class='col-md-11 margin-center'>
+						<div class='row top-margin'>
+							<div class='col-md-10 container margin-center checkout-resp-box'>
+								<h4 class='billing-payment-title'>Oops, the payment failed...</h4>
+								<p>
+									This can happen for a  variety of reasons such as:
+								</p>
+								<div>- Unsecure internet connection</div>
+								<div>- Incorrect card details</div>
+								<div>- Insufficent funds</div>
+								<div>- Our system could be having issues</div>
+								<div class='row action-btn'>
+									<div class='col-6'>
+										<a href="checkout.html"><button class='dark-btn-bg'><i class='fa fa-edit'></i>EDIT CARD DETAILS</button></a>
+									</div>
+									<div class='col-6'>
+										<a href="Contact-Us.html"><button class='dark-btn-bg'><i class='fa fa-phone-alt'></i>CONTACT US</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		
+		<div class="modal fade for-login" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="login-register-head" align='center'>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+					<div class='text-center'>
+						<h5 class="modal-title" id="exampleModalLongTitle text-center">Login / Register</h5>
+					</div>
+				</div>
+				<div class="modal-body">
+					<form id='login-form'>
+						<div class='row margin-center col-md-9'>
+							<div class='"form-group col-md-12'>
+									<label for="formGroupExampleInput">Email</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-12'>
+									<label for="formGroupExampleInput">Password</label>
+									<input class="form-control" type="password" placeholder="Default input">
+							</div>
+							<div class='col-md-12'>
+								<div class='row'>
+									<div class='form-group col-5'>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" id="gridCheck">
+										  <label class="form-check-label" for="gridCheck">
+											Check me out
+										  </label>
+										</div>
+									</div>
+									<div class='col-2'></div>
+									<div class='col-5 text-right'>
+										<a href=''>Forget Password?</a>
+									</div>
+								</div>
+							</div>
+							<div class='col-md-12 text-center'>
+								<button type="button" class="light_btn_bg form-login-btn">LOGIN</button>
+							</div>
+							<div class='col-md-12 text-center'>
+								New to Chrome? <a href='#register' id='register-form-switch'>Register here</a>
+							</div>
+						</div>
+					</form>
+					<form id='register-form'>
+						<div class='row margin-center col-md-9'>
+							<div class='form-group col-md-3'>
+									<label for="formGroupExampleInput">Title</label>
+									<select class="form-control" id="exampleFormControlSelect1">
+										  <option>Male</option>
+										  <option>Female</option>
+									</select>
+							</div>
+							<div class='form-group col-md-4'>
+									<label for="formGroupExampleInput">First Name</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-5'>
+									<label for="formGroupExampleInput">Last Name</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-12'>
+									<label for="formGroupExampleInput">Email</label>
+									<input class="form-control" type="email" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-6'>
+									<label for="formGroupExampleInput">Password</label>
+									<input class="form-control" type="email" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-6'>
+									<label for="formGroupExampleInput">Confirm password</label>
+									<input class="form-control" type="email" placeholder="Default input">
+							</div>
+							<div class='col-md-12'>
+								<div class='row'>
+									<div class='form-group col-8 margin-center'>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" id="gridCheck">
+										  <label class="form-check-label" for="gridCheck">
+											Yes, sign me  up for exclusive deal and offers via email
+										  </label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class='col-md-12'>
+								<div class='row'>
+									<div class='form-group col-8 margin-center'>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" id="gridCheck">
+										  <label class="form-check-label" for="gridCheck">
+											Yes, I understand and accept the <a href=''>Privacy Policy</a>
+										  </label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class='col-md-12 text-center'>
+								<button type="button" class="light_btn_bg form-login-btn">LOGIN</button>
+							</div>
+							<div class='col-md-12 text-center'>
+								Have an account? <a href='#login' id='login-form-switch'>Login here</a>
+							</div>
+						</div>
+					</form>
+				
+				</div>
+			</div>
+		  </div>
+		</div>
+		<div class='row' id='footer'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding mobile-no-padding'>
+				<div class='row'>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box cliam'>
+							<div class='info-title'>Claim Your Chrome Membership</div>
+							<p> For exclusive deals and the latest special offers</p>
+							<div class='info-input'>
+								<input type='text' placeholder='jon@chromeexperencies.com'>
+							</div>
+							<div class='info-button'>
+								<button type='submit' >SIGN ME UP</button>
+							</div>
+						</div>
+					</div>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box share'>
+							<div class='info-caption'>Share Your Experince!</div>
+							<p> For a chance to win another experince day in our monthly giveaways!</p>
+							<div class='info-caption'>#Chromeexperinces</div>
+						</div>
+					</div>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box share'>
+							<div class='info-caption'>Connect uith us!</div>
+							<p> Exciting dialy content of new experinces, and monly giveway prizes to be won!</p>
+							<div class='info-social'>
+								<i class="fab fa-facebook-square"></i>
+								<i class="fab fa-instagram"></i>
+								<i class="fab fa-twitter-square"></i>
+								<i class="fab fa-youtube-square"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class='row'>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Customer Services</div>
+							<ul>
+								<li><a href='How-it-works.html'>How it works</a></li>
+								<li><a href='Location.html'>Locations</a></li>
+								<li><a href='Package-Delivery.html'>Packaging & Delivery</a></li>
+								<li>Privacy & Security</li>
+								<li>Why buy from us?</li>
+								<li>Student discount</li>
+								<li><a href='Gift-Card-Balance-Checker.html'>Gift card balance checker</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Company Information</div>
+							<ul>
+								<li>About us</li>
+								<li><a href='corporate-page.html'>Coperate</a></li>
+								<li><a href='Contact-Us.html'>Contact us</a></li>
+								<li><a href='Careers.html'>Careers</a></li>
+								<li><a href='Affiliates.html'>Affliate</a></li>
+								<li><a href='review.html'>Reviews</a></li>
+								<li><a href='Becoame-suppler.html'>Become a supplier</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Office Hour (UK)</div>
+							<ul>
+								<li>8am - 5pm</li>
+								<li>Monday - Friday</li>
+								<li>01443 888144</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		<script src='assets/jQuery/js/jquery-3.4.1.min.js'></script>
+		<script src='assets/bootstrap/js/bootstrap.min.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+		<script src="assets/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$(document).ready(function() {
+			
+				$("body").on("click",".enter-address",function(){
+					$(".checkout-address").show();
+				});
+				$("body").on("click",".mobile-menu-icon",function(){
+					$("#top-menu-container").toggleClass("slideout");
+				});
+				$("body").on("click",".close_menu",function(){
+					$("#top-menu-container").toggleClass("slideout");
+				});
+				$("body").on("click","#for-login",function(){
+					$(".for-login").modal("show");
+				});
+				$("body").on("click",".add-gift-message-btn",function(){
+					$(".gift-message").modal("show");
+				});
+				$("body").on("click","#login-form-switch,#register-form-switch",function(){
+					$("#login-form").toggle();
+					$("#register-form").toggle();
+				});
+				$(".regular").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					  responsive: [
+						{
+						  breakpoint: 1024,
+						  settings: {
+							slidesToShow: 4,
+							slidesToScroll: 1,
+							infinite: true,
+							dots: true
+						  }
+						},
+						{
+						  breakpoint: 600,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						},
+						{
+						  breakpoint: 480,
+						  settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1
+						  }
+						}
+					  ]
+				  });
+				  $(".regular-b").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					  responsive: [
+						{
+						  breakpoint: 1024,
+						  settings: {
+							slidesToShow: 4,
+							slidesToScroll: 1,
+							infinite: true,
+							dots: true
+						  }
+						},
+						{
+						  breakpoint: 600,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						},
+						{
+						  breakpoint: 480,
+						  settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1
+						  }
+						}
+					  ]
+				  });
+				$(".review_slider").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1
+				  });
+				$('.sel-location').select2();
+				$('.sel-category').select2();
+				$('.sel-price-range').select2();
+				$('.sel-who-for').select2();
+			});
+		</script>
+	</body>
+</html>

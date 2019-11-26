@@ -1,0 +1,656 @@
+<html>
+	<head>
+		<title></title>
+		<meta name="viewport" content="width=device-width, maximum-scale=1">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'/>
+		<link rel='stylesheet' href='assets/bootstrap/css/bootstrap.min.css'/>
+		<link rel='stylesheet' href='assets/style.css'/>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+
+	</head>
+	<body>
+		<div class='row site-head'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding'>
+				<div class='row'>
+					<div class='mobile col-2 mobile-no-padding mobile-menu-icon text-center'>
+						<i class='fa fa-bars'></i>
+					</div>
+					<div class='col-7 col-sm-5 mobile-no-padding' id='header-logo'>
+						<h2>Chrome</h2>
+						<div class='slug'>Experiences</div>
+					</div>
+					<div class='col-3 col-sm-5 no-padding desktop' id='header-menu-icon'>
+						<h3 class='checkout-heaader-lock'><b>Secure Checkout</b> <i class='fa fa-lock'></i></h3>
+					</div>
+					<div class='col-3 col-sm-5 no-padding mobile' id='header-menu-icon'>
+						<div class='desktop top-menu'>
+							<div class='icon-item no-padding'> 
+								<div class='label'><a href='Blog.html'>BLOG</a></div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label' id='for-login'>LOGIN</div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label'>FAQ's</div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label'><a href='corporate-page.html'> CORPORATE </a></div>
+							</div>
+						</div>
+						<div class=' icon-link'>
+							<div class='icon-item no-padding'>
+								<!--<img class='frt' src='assets/search.png'>-->
+								<i class='fa fa-search'></i>
+								<div class='label'>SEARCHE</div>
+							</div>
+							<div class='desktop icon-item no-padding'>
+								<a href='My_Voucher.html'>
+									<img class='frt' src='assets/voucher.jpg'>
+									<div class='label'>My VOUCHER</div>
+								</a>
+							</div>
+							<div class='desktop icon-item no-padding'>
+								<i class='fa fa-heart'></i>
+								<div class='label'>WISH LIST</div>
+							</div>
+							<div class='icon-item no-padding basket-menu' data-count='1'>
+								<i class='fa fa-shopping-basket'></i>
+								<!-- <img class='frt' src='assets/basket.png'> -->
+								<div class='label'>BASKET</div>
+								<div id='basket-top-drop' class='basket-container'>
+									<div class='basket-header text-left'>
+										Your Basket
+									</div>
+									<div class='basket-content'>
+										<div class='basket-prod'>
+											<div class='bsk-item'><img src='assets/fine-dining.jpg'></div>
+											<div class='bsk-item '>
+												<div class='bsk-desc text-left'><b>Three course meal with a glass of Wine for two at Prezzo</b></div>
+												<div><b><i class='fa fa-gbp'></i>49</b></div>
+											</div>
+											<div class='bsk-item'><span><b>X</b></span></div>
+										</div>
+									</div>
+									<div class='text-center basket-footer'>
+										<a href="cart-page.html"><button class='light_btn_bg basket-btn'>View Basket</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		
+		<div class='row' id='top-menu-container'>
+			<div class='col-md-10 no-padding margin-center main-menu-div'>
+				<div class='float-right'> <i class='fa fa-times close_menu'> </i></div>
+				<div id='main-menu'>
+					<div class='menu-item mobile'>Login</div>
+					<div class='menu-item mobile'>My VOUCHER</div>
+					<div class='menu-item has-sub-menu'>
+						Experience
+						<div class='sub-menu'>
+							<div class='sub-menu-list'>
+								<div class='sub-link'>
+									DRIVING
+									<div class='sub-cat-list'>
+										<div class='sub-cat-head'>
+											<h5>View All DRIVING</h5>
+										</div>
+										<div class='sub-cat-link'>
+											SPA & BEAUTY
+											<div class='sub-cat-image'>
+												<div class='sub-cat-image-con'>
+													<img src='assets/afternoon-tea.jpg'>
+													<div class='sub-cat-image-footer'>AFTERNOON TEA FOR 2</div>
+												</div>
+											</div>
+										</div>
+										<div class='sub-cat-link'>AFTERNOON TEA</div>
+										<div class='sub-cat-link'>FOOD & DRINK</div>
+										<div class='sub-cat-link'>ADVENTURE</div>
+										<div class='sub-cat-link'>SPORTS & HOBBIES</div>
+										<div class='sub-cat-link'>FLYING</div>
+									</div>	
+								</div>
+								<div class='sub-link'>SPA & BEAUTY</div>
+								<div class='sub-link'>AFTERNOON TEA</div>
+								<div class='sub-link'>FOOD & DRINK</div>
+								<div class='sub-link'>ADVENTURE</div>
+								<div class='sub-link'>SPORTS & HOBBIES</div>
+								<div class='sub-link'>FLYING</div>
+							</div>
+						</div>
+					</div>
+					<div class='menu-item has-sub-menu'>
+						Occasion
+						<div class='sub-menu'>
+							<div class='sub-menu-list'></div>
+							<div class='sub-menu-list'></div>
+							<div  class='sub-menu-images'></div>
+						</div>
+					</div>
+					<div class='menu-item  has-sub-menu'><a style="color:#000;" href="Location.html">Location</a>
+						<div class='sub-menu'>
+							<div class='sub-menu-list'></div>
+							<div class='sub-menu-list'></div>
+							<div  class='sub-menu-images'></div>
+						</div>
+					</div>
+					<div class='menu-item  has-sub-menu'>Price Range
+						<div class='sub-menu'>
+							<div class='sub-menu-list'></div>
+							<div class='sub-menu-list'></div>
+							<div  class='sub-menu-images'></div>
+						</div>
+					</div>
+					<div class='menu-item'>Special Offer</div>
+					<div class='menu-item'>Gift Cards</div>
+					<div class='menu-item'>Packages</div>
+					<div class='menu-item mobile'>Blog</div>
+					<div class='menu-item mobile'>FAQ's</div>
+					<div class='menu-item mobile'>Corporate</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class='row'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding container'>
+				<div class='row micro-link'>
+					<div class='col-4 text-center mobile-no-padding'><i class='fa fa-envelope'></i> INSTANT DELIVERY</div>
+					<div class='col-4 text-center  mobile-no-padding'><i class='fa fa-gem'></i> UNIQUE EXPERIENCE</div>
+					<div class='col-4 text-center mobile-no-padding'><i class='fa fa-exchange-alt'></i> FREE EXCHANGES</div>
+				</div>
+				
+				<div class='row step-content'>
+					<div class='col-md-12 text-center checkoutsteps'>
+						<button class='light_btn_bg checkout-step active arrow'>Basket</button>
+						<button class='light_btn_bg checkout-step arrow'>Checkout</button>
+						<button class='light_btn_bg checkout-step'>Complete</button>
+					</div>
+					<br/>
+					<div class='col-md-12 text-center top-margin desktop'>
+						<h2 class='text-center'>Basket <span>(2)</span></h2>
+					</div>
+				</div>
+				
+				<div class='row cart-item-list'>
+				
+					<div class='col-12 cart-product-title mobile'>
+						<label>PIN: 0203 0176</label>
+						<h5>London Street Photography Day Course</h5>
+					</div>
+					<div class='col-4 col-md-5 text-center no-padding'>
+						<div class='row text-left'>
+							<div class='col-12 col-md-6 cart-product-img'>
+								<img src='assets/Adventure.jpg' />
+							</div>
+							<div class='col-6 cart-product-title desktop'>
+								<h5>London Street Photography Day Course</h5>
+								<label>PIN: 0203 0176</label>
+							</div>
+						</div>
+					</div>
+					<div class='col-8 col-md-7 text-center prod-content'>
+						<div class='row text-left'>
+							<div class='col-7 col-md-5 no-padding'>
+								Gifting the Experience?
+								Makes it personal with a special gift message
+								<div class='add-gift-message-btn-container'><button class='add-gift-message-btn'><i class='fa fa-edit'></i> Add Gift Message</button></div>
+							</div>
+							<div class='col-5 col-md-6 prod-pricing'>
+								<div class='row text-left'> 
+									<div class='col-6 desktop no-padding'><b>Quantity</b></div><div class='col-12 col-md-6 text-center moile-prod-qyt'><button class='mobile'>-</button><input value="1" type='number' class='qyt'><button class='mobile'>+</button> <span class='update-cart desktop'>update</span></div>
+									<div class='col-6 no-padding'><b>Price</b></div><div class='col-6'>&pound;29.00</div>
+									<div class='col-6 no-padding'><b>sub Total</b></div><div class='col-6'>&pound;29.00</div>
+								</div>
+							</div>
+							<div class='col-1 remove-container desktop'>
+								<i class='fa fa-times remove'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr/>
+				<div class='row cart-item-list'>
+				
+					<div class='col-12 cart-product-title mobile'>
+						<label>PIN: 0203 0176</label>
+						<h5>London Street Photography Day Course</h5>
+					</div>
+					<div class='col-4 col-md-5 text-center no-padding'>
+						<div class='row text-left'>
+							<div class='col-12 col-md-6 cart-product-img'>
+								<img src='assets/Adventure.jpg' />
+							</div>
+							<div class='col-6 cart-product-title desktop'>
+								<h5>London Street Photography Day Course</h5>
+								<label>PIN: 0203 0176</label>
+							</div>
+						</div>
+					</div>
+					<div class='col-8 col-md-7 text-center prod-content'>
+						<div class='row text-left'>
+							<div class='col-7 col-md-5 no-padding'>
+								Gifting the Experience?
+								Makes it personal with a special gift message
+								<div class='add-gift-message-btn-container'><button class='add-gift-message-btn'><i class='fa fa-edit'></i> Add Gift Message</button></div>
+							</div>
+							<div class='col-5 col-md-6 prod-pricing'>
+								<div class='row text-left'> 
+									<div class='col-6 desktop no-padding'><b>Quantity</b></div><div class='col-12 col-md-6 text-center moile-prod-qyt'><button class='mobile'>-</button><input value="1" type='number' class='qyt'><button class='mobile'>+</button> <span class='update-cart desktop'>update</span></div>
+									<div class='col-6 no-padding'><b>Price</b></div><div class='col-6'>&pound;29.00</div>
+									<div class='col-6 no-padding'><b>sub Total</b></div><div class='col-6'>&pound;29.00</div>
+								</div>
+							</div>
+							<div class='col-1 remove-container desktop'>
+								<i class='fa fa-times remove'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class='row top-margin lr-padding '>
+					<div class='col-md-6'>
+						<h3>
+							Delivery
+						</h3>
+						<p>
+							This is the easy part! All of our experience vouchers are emailed to you instantly after confirmation.
+						</p>
+						<div><i class='fa fa-check'></i> No unnecessary paper used</div>
+						<div><i class='fa fa-check'></i> No stress about delivery time</div>
+						<br>
+						<h5>Want to gift the experience by hand? </h5>
+						<p>
+							you still can! Your experience voucher will come in the form of a beautiful PD, addressed to the name in the Gift Message
+							 above. You can then decide whether to electronically send the PDF as a gift, or print it out and pop it into an envelope.
+						</p>
+						<div class='col-md-7 no-padding discount_code'>
+							<b>Got a Discount Code?</b>
+							<div><input type='text' class='form-control'></div>
+							<div class='text-right'><a href="#" style="color:#000;"><u>APPLY</u></a></div>
+						</div>
+						
+					</div>
+					<div class='col-md-2 desktop'></div>
+					<div class='col-md-4 text-center'>
+						<div class='cart-total-section'>
+							<div class='cart-total-head'>
+								<div class='row'>
+									<div class='col-6'><b>Basket Total</b></div>
+									<div class='col-6'>&pound;29.00</div>
+								</div>
+							</div>
+							<div  class='cart-total-body'>
+								<div class='row'>
+									<div class='col-6'><b>Discount</b></div>
+									<div class='col-6'></div>
+								</div>
+								<br/>
+								<div class='row'>
+									<div class='col-6'><b>Total Price</b></div>
+									<div class='col-6'><b>&pound;29.00</b></div>
+								</div>
+								<div class='text-center'>
+									<button class='light_btn_bg checkout-btn-cart'><a href="checkout.html" style="color:#000;">Checkout Now</a><i class='fa fa-chevron-right'></i></button>
+								</div>
+								
+								<div class='text-center'>
+									<div>Or checkout with:</div>
+									<div><button class='paypal-btn'><i class='fab fa-paypal'></i> Paypal</button></div>
+									<div><button class='payapple-btn payapple-bgn dark-btn-bg'><i class='fab fa-apple'></i> Pay</button></div>
+								</div>
+							</div>
+						</div>
+						<div class='text-center'>
+							<a href="#" style="color:#000;"><u>CONTINUE SHOPPING</u></a>
+						</div>
+					</div>
+				</div>
+				<br/>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		
+		<div class="modal fade gift-message" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="login-register-head" align='center'>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+					<div class='text-center'>
+						<h5 class="modal-title" id="exampleModalLongTitle text-center">Add Gift Message</h5>
+					</div>
+				</div>
+				<div class="modal-body">
+					<form id='add-message-form'>
+						<div class='row margin-center col-md-9'>
+							<div class='form-group col-md-6'>
+									<label for="formGroupExampleInput">To</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-6'>
+									<label for="formGroupExampleInput">From</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-12'>
+									<label for="formGroupExampleInput">Write Something Persoanl</label>
+									<textarea class="form-control"></textarea>
+							</div>
+							<div class='col-md-12 text-center'>
+								<button type="button" class="light_btn_bg form-login-btn">Save Message</button>
+							</div>
+						</div>
+					</form>
+				
+				</div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="modal fade for-login" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="login-register-head" align='center'>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+					<div class='text-center'>
+						<h5 class="modal-title" id="exampleModalLongTitle text-center">Login / Register</h5>
+					</div>
+				</div>
+				<div class="modal-body">
+					<form id='login-form'>
+						<div class='row margin-center col-md-9'>
+							<div class='"form-group col-md-12'>
+									<label for="formGroupExampleInput">Email</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-12'>
+									<label for="formGroupExampleInput">Password</label>
+									<input class="form-control" type="password" placeholder="Default input">
+							</div>
+							<div class='col-md-12'>
+								<div class='row'>
+									<div class='form-group col-5'>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" id="gridCheck">
+										  <label class="form-check-label" for="gridCheck">
+											Check me out
+										  </label>
+										</div>
+									</div>
+									<div class='col-2'></div>
+									<div class='col-5 text-right'>
+										<a href=''>Forget Password?</a>
+									</div>
+								</div>
+							</div>
+							<div class='col-md-12 text-center'>
+								<button type="button" class="light_btn_bg form-login-btn">LOGIN</button>
+							</div>
+							<div class='col-md-12 text-center'>
+								New to Chrome? <a href='#register' id='register-form-switch'>Register here</a>
+							</div>
+						</div>
+					</form>
+					<form id='register-form'>
+						<div class='row margin-center col-md-9'>
+							<div class='form-group col-md-3'>
+									<label for="formGroupExampleInput">Title</label>
+									<select class="form-control" id="exampleFormControlSelect1">
+										  <option>Male</option>
+										  <option>Female</option>
+									</select>
+							</div>
+							<div class='form-group col-md-4'>
+									<label for="formGroupExampleInput">First Name</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-5'>
+									<label for="formGroupExampleInput">Last Name</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-12'>
+									<label for="formGroupExampleInput">Email</label>
+									<input class="form-control" type="email" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-6'>
+									<label for="formGroupExampleInput">Password</label>
+									<input class="form-control" type="email" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-6'>
+									<label for="formGroupExampleInput">Confirm password</label>
+									<input class="form-control" type="email" placeholder="Default input">
+							</div>
+							<div class='col-md-12'>
+								<div class='row'>
+									<div class='form-group col-8 margin-center'>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" id="gridCheck">
+										  <label class="form-check-label" for="gridCheck">
+											Yes, sign me  up for exclusive deal and offers via email
+										  </label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class='col-md-12'>
+								<div class='row'>
+									<div class='form-group col-8 margin-center'>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" id="gridCheck">
+										  <label class="form-check-label" for="gridCheck">
+											Yes, I understand and accept the <a href=''>Privacy Policy</a>
+										  </label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class='col-md-12 text-center'>
+								<button type="button" class="light_btn_bg form-login-btn">LOGIN</button>
+							</div>
+							<div class='col-md-12 text-center'>
+								Have an account? <a href='#login' id='login-form-switch'>Login here</a>
+							</div>
+						</div>
+					</form>
+				
+				</div>
+			</div>
+		  </div>
+		</div>
+		<div class='row' id='footer'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding mobile-no-padding'>
+				<div class='row'>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box cliam'>
+							<div class='info-title'>Claim Your Chrome Membership</div>
+							<p> For exclusive deals and the latest special offers</p>
+							<div class='info-input'>
+								<input type='text' placeholder='jon@chromeexperencies.com'>
+							</div>
+							<div class='info-button'>
+								<button type='submit' >SIGN ME UP</button>
+							</div>
+						</div>
+					</div>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box share'>
+							<div class='info-caption'>Share Your Experince!</div>
+							<p> For a chance to win another experince day in our monthly giveaways!</p>
+							<div class='info-caption'>#Chromeexperinces</div>
+						</div>
+					</div>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box share'>
+							<div class='info-caption'>Connect uith us!</div>
+							<p> Exciting dialy content of new experinces, and monly giveway prizes to be won!</p>
+							<div class='info-social'>
+								<i class="fab fa-facebook-square"></i>
+								<i class="fab fa-instagram"></i>
+								<i class="fab fa-twitter-square"></i>
+								<i class="fab fa-youtube-square"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class='row'>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Customer Services</div>
+							<ul>
+								<li><a href='How-it-works.html'>How it works</a></li>
+								<li><a href='Location.html'>Locations</a></li>
+								<li><a href='Package-Delivery.html'>Packaging & Delivery</a></li>
+								<li>Privacy & Security</li>
+								<li>Why buy from us?</li>
+								<li>Student discount</li>
+								<li><a href='Gift-Card-Balance-Checker.html'>Gift card balance checker</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Company Information</div>
+							<ul>
+								<li>About us</li>
+								<li><a href='corporate-page.html'>Coperate</a></li>
+								<li><a href='Contact-Us.html'>Contact us</a></li>
+								<li><a href='Careers.html'>Careers</a></li>
+								<li><a href='Affiliates.html'>Affliate</a></li>
+								<li><a href='review.html'>Reviews</a></li>
+								<li><a href='Becoame-suppler.html'>Become a supplier</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Office Hour (UK)</div>
+							<ul>
+								<li>8am - 5pm</li>
+								<li>Monday - Friday</li>
+								<li>01443 888144</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		<script src='assets/jQuery/js/jquery-3.4.1.min.js'></script>
+		<script src='assets/bootstrap/js/bootstrap.min.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+		<script src="assets/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$(document).ready(function() {
+				$("body").on("click",".mobile-menu-icon",function(){
+					$("#top-menu-container").toggleClass("slideout");
+				});
+				$("body").on("click",".close_menu",function(){
+					$("#top-menu-container").toggleClass("slideout");
+				});
+				$("body").on("click","#for-login",function(){
+					$(".for-login").modal("show");
+				});
+				$("body").on("click",".add-gift-message-btn",function(){
+					$(".gift-message").modal("show");
+				});
+				$("body").on("click","#login-form-switch,#register-form-switch",function(){
+					$("#login-form").toggle();
+					$("#register-form").toggle();
+				});
+				$(".regular").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					  responsive: [
+						{
+						  breakpoint: 1024,
+						  settings: {
+							slidesToShow: 4,
+							slidesToScroll: 1,
+							infinite: true,
+							dots: true
+						  }
+						},
+						{
+						  breakpoint: 600,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						},
+						{
+						  breakpoint: 480,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						}
+					  ]
+				  });
+				  $(".regular-b").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					  responsive: [
+						{
+						  breakpoint: 1024,
+						  settings: {
+							slidesToShow: 4,
+							slidesToScroll: 1,
+							infinite: true,
+							dots: true
+						  }
+						},
+						{
+						  breakpoint: 600,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						},
+						{
+						  breakpoint: 480,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						}
+					  ]
+				  });
+				  $(".menu-item").on("click",function(){
+					$(".menu-item").removeClass("open");
+					$(this).addClass("open");
+				});
+				  $(".sub-link").on("click",function(){
+					$(".sub-link").removeClass("open");
+					$(this).addClass("open");
+				});
+				$(".review_slider").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1
+				  });
+				$('.sel-location').select2();
+				$('.sel-category').select2();
+				$('.sel-price-range').select2();
+				$('.sel-who-for').select2();
+			});
+		</script>
+	</body>
+</html>

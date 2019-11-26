@@ -1,0 +1,912 @@
+<html>
+	<head>
+		<title></title>
+		<meta name="viewport" content="width=device-width, maximum-scale=1">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'/>
+		<link rel='stylesheet' href='assets/bootstrap/css/bootstrap.min.css'/>
+		<link rel='stylesheet' href='assets/style.css'/>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+	</head>
+	<body>
+		<div class='row site-head'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding'>
+				<div class='row'>
+					<div class='mobile col-2 mobile-no-padding mobile-menu-icon text-center'>
+						<i class='fa fa-bars'></i>
+					</div>
+					<div class='col-7 col-sm-5 mobile-no-padding' id='header-logo'>
+						<h2>Chrome</h2>
+						<div class='slug'>Experiences</div>
+					</div>
+					<div class='col-3 col-sm-5 no-padding' id='header-menu-icon'>
+						<div class='desktop top-menu'>
+							<div class='icon-item no-padding'> 
+								<div class='label'><a href='Blog.html'>BLOG</a></div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label' id='for-login'>LOGIN</div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label'>FAQ's</div>
+							</div>
+							<div class='icon-item no-padding'>
+								<div class='label'><a href='corporate-page.html'> CORPORATE </a></div>
+							</div>
+						</div>
+						<div class=' icon-link'>
+							<div class='icon-item no-padding'>
+								<!--<img class='frt' src='assets/search.png'>-->
+								<i class='fa fa-search'></i>
+								<div class='label'>SEARCHE</div>
+							</div>
+							<div class='desktop icon-item no-padding'>
+								<a href='My_Voucher.html'>
+									<img class='frt' src='assets/voucher.jpg'>
+									<div class='label'>My VOUCHER</div>
+								</a>
+							</div>
+							<div class='desktop icon-item no-padding'>
+								<i class='fa fa-heart'></i>
+								<div class='label'>WISH LIST</div>
+							</div>
+							<div class='icon-item no-padding basket-menu' data-count='1'>
+								<i class='fa fa-shopping-basket'></i>
+								<!-- <img class='frt' src='assets/basket.png'> -->
+								<div class='label'>BASKET</div>
+								<div id='basket-top-drop' class='basket-container'>
+									<div class='basket-header text-left'>
+										Your Basket
+									</div>
+									<div class='basket-content'>
+										<div class='basket-prod'>
+											<div class='bsk-item'><img src='assets/fine-dining.jpg'></div>
+											<div class='bsk-item '>
+												<div class='bsk-desc text-left'><b>Three course meal with a glass of Wine for two at Prezzo</b></div>
+												<div><b><i class='fa fa-gbp'></i>49</b></div>
+											</div>
+											<div class='bsk-item'><span><b>X</b></span></div>
+										</div>
+									</div>
+									<div class='text-center basket-footer'>
+										<a href="cart-page.html"><button class='light_btn_bg basket-btn'>View Basket</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		<div class='row' id='top-menu-container'>
+			<div class='col-md-10 no-padding margin-center main-menu-div'>
+				<div class='float-right'> <i class='fa fa-times close_menu'> </i></div>
+				<div id='main-menu'>
+					<div class='menu-item mobile'>Login</div>
+					<div class='menu-item mobile'>My VOUCHER</div>
+					<div class='menu-item has-sub-menu'>
+						Experience
+						<div class='sub-menu'>
+							<div class='sub-menu-list'>
+								<div class='sub-link'>
+									DRIVING
+									<div class='sub-cat-list'>
+										<div class='sub-cat-head'>
+											<h5>View All DRIVING</h5>
+										</div>
+										<div class='sub-cat-link'>
+											SPA & BEAUTY
+											<div class='sub-cat-image'>
+												<div class='sub-cat-image-con'>
+													<img src='assets/afternoon-tea.jpg'>
+													<div class='sub-cat-image-footer'>AFTERNOON TEA FOR 2</div>
+												</div>
+											</div>
+										</div>
+										<div class='sub-cat-link'>AFTERNOON TEA</div>
+										<div class='sub-cat-link'>FOOD & DRINK</div>
+										<div class='sub-cat-link'>ADVENTURE</div>
+										<div class='sub-cat-link'>SPORTS & HOBBIES</div>
+										<div class='sub-cat-link'>FLYING</div>
+									</div>	
+								</div>
+								<div class='sub-link'>SPA & BEAUTY</div>
+								<div class='sub-link'>AFTERNOON TEA</div>
+								<div class='sub-link'>FOOD & DRINK</div>
+								<div class='sub-link'>ADVENTURE</div>
+								<div class='sub-link'>SPORTS & HOBBIES</div>
+								<div class='sub-link'>FLYING</div>
+							</div>
+						</div>
+					</div>
+					<div class='menu-item has-sub-menu'>
+						Occasion
+						<div class='sub-menu'>
+							<div class='sub-menu-list'></div>
+							<div class='sub-menu-list'></div>
+							<div  class='sub-menu-images'></div>
+						</div>
+					</div>
+					<div class='menu-item  has-sub-menu'><a style="color:#000;" href="Location.html">Location</a>
+						<div class='sub-menu'>
+							<div class='sub-menu-list'></div>
+							<div class='sub-menu-list'></div>
+							<div  class='sub-menu-images'></div>
+						</div>
+					</div>
+					<div class='menu-item  has-sub-menu'>Price Range
+						<div class='sub-menu'>
+							<div class='sub-menu-list'></div>
+							<div class='sub-menu-list'></div>
+							<div  class='sub-menu-images'></div>
+						</div>
+					</div>
+					<div class='menu-item'>Special Offer</div>
+					<div class='menu-item'>Gift Cards</div>
+					<div class='menu-item'>Packages</div>
+					<div class='menu-item mobile'>Blog</div>
+					<div class='menu-item mobile'>FAQ's</div>
+					<div class='menu-item mobile'>Corporate</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class='row'>
+			<div class='col-md-1'></div>
+			<div class='col-sm-12 col-md-10 no-padding container'>
+				<div class='row micro-link'>
+					<div class='col-4 text-center mobile-no-padding'><i class='fa fa-envelope'></i> INSTANT DELIVERY</div>
+					<div class='col-4 text-center  mobile-no-padding'><i class='fa fa-gem'></i> UNIQUE EXPERIENCE</div>
+					<div class='col-4 text-center mobile-no-padding'><i class='fa fa-exchange-alt'></i> FREE EXCHANGES</div>
+				</div>
+				<div class='row lading-v-t'>
+					<div class='col-md-9 home-banner'></div>
+					<div class='col-md-3 text-left v-l-description'>
+						<div class='row'>
+							<div class='col-8 col-md-12 no-padding'>
+								<h5 class='home-screen-htext-header'>Escape the week with a 2 day All-inclusive Spa and Beauty Retreat</h5>
+							</div>
+							<p class='home-screen-text'>At over 30 location across the UK, its time to take some me time. Voucher are also available for 2. Starting from &pound;99 including hotel.</p>
+							<div class='col-4 col-md-12 no-padding'><div class='exlopre-container'><button class='light_btn_bg'>EXPLORE OFFER</button></div></div>
+						</div>
+					</div>
+				</div>
+				
+				<h5 class='line-rule-title'>
+					<span>LET'S FIND YOU AN EXPERIENCE</span>
+				</h5>
+				<div class='row find-exp search-category'>
+					<div class='col-6 col-sm-3 no-padding sel-container'>
+						<select style="width:60% important;" class="sel-location" name="state">
+						  <option value="">LOCATION</option>
+						</select>
+					</div>
+					<div class='col-6 col-sm-3 no-padding sel-container'>
+						<select style="width:60% important;" class="sel-category" name="state">
+						  <option value="">CATEGORY</option>
+						  <option value="">DRIVING</option>
+						  <option value="">SPA & BEAUTY</option>
+						  <option value="">AFTERNOON TEA</option>
+						  <option value="">FOOD & DRINK</option>
+						  <option value="">ADVENTURE</option>
+						  <option value="">SPORT & HOBBIES</option>
+						  <option value="">FLYING</option>
+						  <option value="">THEATRE & EVENT</option>
+						  <option value="">ANIMAL</option>
+						  <option value="">DAYS OUT & TOURS</option>
+						  <option value="">WATERSPORT & BOALT</option>
+						  <option value="">SPORT & BREAKS</option>
+						  <option value="">PACKAGES</option>
+						</select>
+					</div>
+					<div class='col-6 col-sm-3 no-padding sel-container'>
+						<select style="width:60% important;" class="sel-price-range" name="state">
+						  <option value="">PRICE RANGE</option>
+						</select>
+					</div>
+					<div class='col-6 col-sm-3 no-padding sel-container'>
+						<select style="width:60% important;" class="sel-who-for" name="state">
+						  <option value="">WHO FOR? </option>
+						</select>
+					</div>
+				</div>
+				<h5 class='line-rule-title desktop'>
+					<span>BESTSELLING EXPERIENCES</span>
+				</h5>
+				<div class='margin-center col-10 col-ms-11 desktop'>
+					<section class="regular slider">
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				
+				<h5 class='line-rule-title'>
+					<span>SEARCH BY CATEGORY</span>
+				</h5>
+				<div class='category_container' align='center'>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/Open-Grand-Prix-Go-Karting-1.jpg'>
+						</div>
+						<div class='category_footer text-center'> DRIVING </div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/shutterstock_181680002.jpg'>
+						</div>
+						<div class='category_footer text-center'> SPA & BEAUTY</div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/Adventure.jpg'>
+						</div>
+						<div class='category_footer text-center'> ADVENTURE</div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/afternoon-tea.jpg'>
+						</div>
+						<div class='category_footer text-center'> AFTERNOON TEA</div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/Day-out-in-london.jpg'>
+						</div>
+						<div class='category_footer text-center'> DAYS OUT IN LONDON </div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/Osborne2BHouse2Bby2BLaurence2BNorah-3.jpg'>
+						</div>
+						<div class='category_footer text-center'> SHORT BREAKS</div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/pottery.jpg'>
+						</div>
+						<div class='category_footer text-center'> ART & CRAFTS</div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/Flying.jpg'>
+						</div>
+						<div class='category_footer text-center'> FLYING</div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/Sports.jpg'>
+						</div>
+						<div class='category_footer text-center'> SPORT & HOBBIES </div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/fine-dining.jpg'>
+						</div>
+						<div class='category_footer text-center'> FOOD & DRINK</div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/Theatre .jpg'>
+						</div>
+						<div class='category_footer text-center'> THEATRE AND EVENTS</div>
+					</div>
+					<div class='category_item'>
+						<div class='category_img'>
+							<img src='assets/Lamborghini-blue-supercar-airport-airplane_1920x1200.jpg'>
+						</div>
+						<div class='category_footer text-center'> PACKAGES </div>
+					</div>
+				</div>
+				
+				<h5 class='line-rule-title'>
+					<span>SPECIAL OFFERS</span>
+				</h5>
+				<div class='offer-container'>
+					<h1 class="seventy_per">70% OFF</h1>
+    <h3 class="supper_car">3 CAR SUPERCAR BLAST!</h3>
+					<button class='take-offer-btn'>TAKE ME THERE!</button>
+				</div>
+				<h5 class='line-rule-title'>
+					<span>SEARCH FOR AN EXPERIENCE</span>
+				</h5>
+				<div class='exp_container margin-center col-md-11'>
+					<div>
+						<div class='exp_item'>
+							<div class='exp_img'>
+								<img src='assets/stones_candles_aromatherapy_spa_water_bamboo_massage_67321_1920x1080.jpg'>
+							</div>
+							<div class='exp_footer text-center'> RELAXING BREAKS </div>
+						</div>
+						<div class='exp_item'>
+							<div class='exp_img'>
+								<img src='assets/Birthday-cake.jpg'>
+							</div>
+							<div class='exp_footer text-center'> BIRTHDAY GIFTS </div>
+						</div>
+						<div class='exp_item'>
+							<div class='exp_img'>
+								<img src='assets/Adventure.jpg'>
+							</div>
+							<div class='exp_footer text-center'> THRILL SEEKERS </div>
+						</div>
+					</div>
+					<div class='exp-map'>
+						<div class='exp-inner'>
+							<div class='search-locaion-container'>
+								<input type='text' placeholder="I'm looking for experiences near.. " class='location-search'>
+								<button class='lotion-search-btn text-center'><i>Search</i></button>
+							</div>
+							<div class='user-current-location'><a>Use my current location</a> <i class='fa fa-location-arrow'></i></div>
+						</div>
+					</div>
+				</div>
+				<h5 class='line-rule-title'></h5>
+				<div class='row review margin-center col-md-11'>
+					<div class='col-md-5 trusted-img'>
+						<img src='assets/trustpilot-5stars.png'>
+					</div>
+					<div class='col-md-7'>
+						 <section class="review_slider slider">
+							<div>
+							  <h5 class='text-center'>Thousand Of Happy Customers</h5>
+							  
+							  <p class='review-comment'>If ever i need a gift for anyone... This is the first company i think of. Their website is wonderful to browse through and full of brillant ideas for any occasion. its easy to order and the goods arrive well packed and in good time. i have recommended 'Find me a Gift' to several of my friends. i cannot reccommend them highly enough. An excellent service all round.</p>
+							  <div class='review-user-name-date'>
+								Fiona, Oct 2018
+							  </div>
+							  <div class='review-star-rating'>
+									4.8/5 
+									<i class="fa fa-star checked"></i>
+									<i class="fa fa-star checked"></i>
+									<i class="fa fa-star checked"></i>
+									<i class="fa fa-star checked"></i>
+									<i class="fa fa-star-half-alt"></i> 
+									Google Certified Reviews
+							  </div>
+							</div>
+							<div>
+							  <h5 class='text-center'>Thousand Of Happy Customers</h5>
+							  
+							  <p class='review-comment'>If ever i need a gift for anyone... This is the first company i think of. Their website is wonderful to browse through and full of brillant ideas for any occasion. its easy to order and the goods arrive well packed and in good time. i have recommended 'Find me a Gift' to several of my friends. i cannot reccommend them highly enough. An excellent service all round.</p>
+							  <div class='review-user-name-date'>
+								Fiona, Oct 2018
+							  </div>
+							  <div class='review-star-rating'>
+									4.8/5 
+									<i class="fa fa-star checked"></i>
+									<i class="fa fa-star checked"></i>
+									<i class="fa fa-star checked"></i>
+									<i class="fa fa-star checked"></i>
+									<i class="fa fa-star-half-alt"></i> 
+									Google Certified Reviews
+							  </div>
+							</div>
+						  </section>
+					</div>
+				</div>
+				
+				<h5 class='line-rule-title'></h5>
+				<div class='text-center filter-container'> <span class='filter-t active'>Recently Viewed</span> <span class='filter-t'>New Release</span> <span class='filter-t'>Top 10</span></div>
+				
+				<div  class='margin-center col-md-10 col-ms-11'>
+					<section class="regular-b slider">
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class='pro_container'>
+								<div class='pro_img'>
+									<img src='assets/fine-dining.jpg'>
+								</div>
+								<div class='pro_title text-center'>2 FOR 1</div>
+								<p class='text-center pro_desc'><b>Three Course Meal with a glass of Wine for Two at Prezzo</b></p>
+								<div class='pro_price text-center'>
+									<div class='was'><span>WAS</span><b>&pound;49</b></div>
+									<div class='now'><span>NOW</span><b>&pound;49</b></div>
+								</div>
+								<div class='pro_footer text-center'>
+									<div class='more_info'>MORE INFO</div>
+									<div class='add_basket'>ADD TO BASKET</div>
+								</div>
+							</div>
+						</div>
+					</section><br>
+					<p align="center"><a href="#" style="color:#000;"><u>Back to the top</u></a></p><br>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		<div class="modal fade for-login" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="login-register-head" align='center'>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+					<div class='text-center'>
+						<h5 class="modal-title" id="exampleModalLongTitle text-center">Login / Register</h5>
+					</div>
+				</div>
+				<div class="modal-body">
+					<form id='login-form'>
+						<div class='row margin-center col-md-9'>
+							<div class='"form-group col-md-12'>
+									<label for="formGroupExampleInput">Email</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-12'>
+									<label for="formGroupExampleInput">Password</label>
+									<input class="form-control" type="password" placeholder="Default input">
+							</div>
+							<div class='col-md-12'>
+								<div class='row'>
+									<div class='form-group col-5'>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" id="gridCheck">
+										  <label class="form-check-label" for="gridCheck">
+											Check me out
+										  </label>
+										</div>
+									</div>
+									<div class='col-2'></div>
+									<div class='col-5 text-right'>
+										<a href=''>Forget Password?</a>
+									</div>
+								</div>
+							</div>
+							<div class='col-md-12 text-center'>
+								<button type="button" class="light_btn_bg form-login-btn">LOGIN</button>
+							</div>
+							<div class='col-md-12 text-center'>
+								New to Chrome? <a href='#register' id='register-form-switch'>Register here</a>
+							</div>
+						</div>
+					</form>
+					<form id='register-form'>
+						<div class='row margin-center col-md-9'>
+							<div class='form-group col-md-3'>
+									<label for="formGroupExampleInput">Title</label>
+									<select class="form-control" id="exampleFormControlSelect1">
+										  <option>Male</option>
+										  <option>Female</option>
+									</select>
+							</div>
+							<div class='form-group col-md-4'>
+									<label for="formGroupExampleInput">First Name</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-5'>
+									<label for="formGroupExampleInput">Last Name</label>
+									<input class="form-control" type="text" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-12'>
+									<label for="formGroupExampleInput">Email</label>
+									<input class="form-control" type="email" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-6'>
+									<label for="formGroupExampleInput">Password</label>
+									<input class="form-control" type="email" placeholder="Default input">
+							</div>
+							<div class='form-group col-md-6'>
+									<label for="formGroupExampleInput">Confirm password</label>
+									<input class="form-control" type="email" placeholder="Default input">
+							</div>
+							<div class='col-md-12'>
+								<div class='row'>
+									<div class='form-group col-8 margin-center'>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" id="gridCheck">
+										  <label class="form-check-label" for="gridCheck">
+											Yes, sign me  up for exclusive deal and offers via email
+										  </label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class='col-md-12'>
+								<div class='row'>
+									<div class='form-group col-8 margin-center'>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" id="gridCheck">
+										  <label class="form-check-label" for="gridCheck">
+											Yes, I understand and accept the <a href=''>Privacy Policy</a>
+										  </label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class='col-md-12 text-center'>
+								<button type="button" class="light_btn_bg form-login-btn">LOGIN</button>
+							</div>
+							<div class='col-md-12 text-center'>
+								Have an account? <a href='#login' id='login-form-switch'>Login here</a>
+							</div>
+						</div>
+					</form>
+				
+				</div>
+			</div>
+		  </div>
+		</div>
+		<div class='row' id='footer'>
+			<div class='col-md-1'></div>
+			<div class='col-md-10 no-padding mobile-no-padding'>
+				<div class='row'>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box cliam'>
+							<div class='info-title'>Claim Your Chrome Membership</div>
+							<p> For exclusive deals and the latest special offers</p>
+							<div class='info-input'>
+								<input type='text' placeholder='jon@chromeexperencies.com'>
+							</div>
+							<div class='info-button'>
+								<button type='submit' >SIGN ME UP</button>
+							</div>
+						</div>
+					</div>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box share'>
+							<div class='info-caption'>Share Your Experince!</div>
+							<p> For a chance to win another experince day in our monthly giveaways!</p>
+							<div class='info-caption'>#Chromeexperinces</div>
+						</div>
+					</div>
+					<div class='col-md-4 mobile-no-padding'>
+						<div class='info-box share'>
+							<div class='info-caption'>Connect uith us!</div>
+							<p> Exciting dialy content of new experinces, and monly giveway prizes to be won!</p>
+							<div class='info-social'>
+								<i class="fab fa-facebook-square"></i>
+								<i class="fab fa-instagram"></i>
+								<i class="fab fa-twitter-square"></i>
+								<i class="fab fa-youtube-square"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class='row'>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Customer Services</div>
+							<ul>
+								<li><a href='How-it-works.html'>How it works</a></li>
+								<li><a href='Location.html'>Locations</a></li>
+								<li><a href='Package-Delivery.html'>Packaging & Delivery</a></li>
+								<li>Privacy & Security</li>
+								<li>Why buy from us?</li>
+								<li>Student discount</li>
+								<li><a href='Gift-Card-Balance-Checker.html'>Gift card balance checker</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Company Information</div>
+							<ul>
+								<li>About us</li>
+								<li><a href='corporate-page.html'>Coperate</a></li>
+								<li><a href='Contact-Us.html'>Contact us</a></li>
+								<li><a href='Careers.html'>Careers</a></li>
+								<li><a href='Affiliates.html'>Affliate</a></li>
+								<li><a href='review.html'>Reviews</a></li>
+								<li><a href='Becoame-suppler.html'>Become a supplier</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class='col-md-4'>
+						<div class='footer-sub-menus'>
+							<div class='footer-menu-title'>Office Hour (UK)</div>
+							<ul>
+								<li>8am - 5pm</li>
+								<li>Monday - Friday</li>
+								<li>01443 888144</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-1'></div>
+		</div>
+		<script src='assets/jQuery/js/jquery-3.4.1.min.js'></script>
+		<script src='assets/bootstrap/js/bootstrap.min.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+		<script src="assets/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$(document).ready(function() {
+				$("body").on("click",".mobile-menu-icon",function(){
+					$("#top-menu-container").toggleClass("slideout");
+				});
+				$("body").on("click",".close_menu",function(){
+					$("#top-menu-container").toggleClass("slideout");
+				});
+				$("body").on("click","#for-login",function(){
+					$(".for-login").modal("show");
+				});
+				$("body").on("click","#login-form-switch,#register-form-switch",function(){
+					$("#login-form").toggle();
+					$("#register-form").toggle();
+				});
+				$(".regular").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					  responsive: [
+						{
+						  breakpoint: 1236,
+						  settings: {
+							slidesToShow: 4,
+							slidesToScroll: 1,
+							infinite: true,
+							dots: true
+						  }
+						},
+						{
+						  breakpoint: 1235,
+						  settings: {
+							slidesToShow: 3,
+							slidesToScroll: 1
+						  }
+						},
+						{
+						  breakpoint: 951,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						},
+						{
+						  breakpoint: 480,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						}
+					  ]
+				  });
+				  $(".regular-b").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					  responsive: [
+						{
+						  breakpoint: 1236,
+						  settings: {
+							slidesToShow: 4,
+							slidesToScroll: 1,
+							infinite: true,
+							dots: true
+						  }
+						},
+						{
+						  breakpoint: 1235,
+						  settings: {
+							slidesToShow: 3,
+							slidesToScroll: 1
+						  }
+						},
+						{
+						  breakpoint: 951,
+						  settings: {
+							slidesToShow: 3,
+							slidesToScroll: 1
+						  }
+						},
+						{
+						  breakpoint: 600,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						  }
+						}
+					  ]
+				  });
+				  $(".menu-item").on("click",function(){
+					$(".menu-item").removeClass("open");
+					$(this).addClass("open");
+				});
+				  $(".sub-link").on("click",function(){
+					$(".sub-link").removeClass("open");
+					$(this).addClass("open");
+				});
+				$(".review_slider").slick({
+					dots: false,
+					infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1
+				  });
+				$('.sel-location').select2();
+				$('.sel-category').select2();
+				$('.sel-price-range').select2();
+				$('.sel-who-for').select2();
+			});
+		</script>
+	</body>
+</html>
